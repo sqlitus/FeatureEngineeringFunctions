@@ -10,7 +10,7 @@
 3. [pulling & merging](https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase)
 
 
-### create package directions
+### [Create package directions](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
 
 ```r
 library(roxygen2); library(devtools)
