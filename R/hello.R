@@ -24,3 +24,7 @@ hello <- function() {
 
 # github directions
 # http://r-pkgs.had.co.nz/git.html
+
+
+# push w/ Rstudio GUI
+# https://www.r-bloggers.com/things-i-forget-pushpull-greyed-out-in-rstudio/
