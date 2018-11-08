@@ -10,6 +10,7 @@ getwd(); dir()   # reference
 ### Create & document functions
 # (then create function w/ documentation & save in the 'R' directory...)
 devtools::document(paste0(normalizePath(getwd()), "\\R"))  # run this function to document files in R folder
+# (NOTE: need a new NAMESPACE file generated to update intellisense. delete old one manually if necessary.)
 
 
 ### Install/load package
@@ -19,9 +20,7 @@ library(FeatureEngineeringFunctions)  # finally load it
 
 ### Use package functions. Reload for intellisense
 FeatureEngineeringFunctions::fef_SSCO_Categories()
-
 ?FeatureEngineeringFunctions::fef_SSCO_Categories()
-
 FeatureEngineeringFunctions::tableau_SSCO_Categories(c("here is offline thing", "here lane shut down"))
 
 
@@ -86,3 +85,9 @@ test(mystrings)
 
 library(FeatureEngineeringFunctions);
 tableau_SSCO_Categories(.arg1)
+fea
+
+
+
+library(FeatureEngineeringFunctions)
+tableau_SSCO_Categories()
